@@ -2,7 +2,7 @@
 
 int main() {
     float priemer_kolesa, vzdialenost_trasy, result;
-    float palec_cm = 2.54, pi = 3.14;
+    const float palec_cm = 2.54, pi = 3.14;
     
     printf ("Zadajte priemer kolesa v palcoch: ");  
     scanf ("%f", &priemer_kolesa);
