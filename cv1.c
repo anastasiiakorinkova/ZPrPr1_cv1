@@ -8,7 +8,6 @@ int main() {
     
     result = (fahr - 32) * 5 / 9;
 
-    
     printf ("%f Fahrenheita je %f Celsius", fahr, result);
 
     return 0;
